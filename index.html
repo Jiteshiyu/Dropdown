@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="icon" type="image" href="./public/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="header">
+        <div class="logo">
+          <a href="/">My Website</a>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-link">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-link dropdown">
+              <a href="#" class="drop-btn">About</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-link"><a href="#">Our Team</a></li>
+                <li class="dropdown-link"><a href="#">Our Story</a></li>
+                <li class="dropdown-link"><a href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-link dropdown">
+              <a href="#" class="drop-btn">Services</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-link"><a href="#">Web Design</a></li>
+                <li class="dropdown-link"><a href="#">SEO</a></li>
+                <li class="dropdown-link"><a href="#">Marketing</a></li>
+              </ul>
+            </li>
+            <li class="nav-link dropdown">
+              <a href="#" class="drop-btn">Portfolio</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-link"><a href="#">Web Dev</a></li>
+                <li class="dropdown-link"><a href="#">UI Design</a></li>
+                <li class="dropdown-link"><a href="#">React.js</a></li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="main-container">
+      <section class="content-section">
+        <div class="content-text">
+          <div class="company-intro">
+            <h1 class="intro-title">Welcome to Our Website</h1>
+            <p class="intro-desc">
+              We are committed to delivering high-quality services and ensuring
+              customer satisfaction at every step. Our team is passionate about
+              innovation, and we aim to exceed expectations in everything we do.
+              With years of expertise and a focus on excellence, we provide a
+              range of solutions tailored to meet your needs.
+            </p>
+          </div>
+
+          <div class="company-values">
+            <h2 class="values-title">Our Core Values</h2>
+            <ul class="values-list">
+              <li id="value1">Quality Assurance</li>
+              <li id="value2">Innovation and Creativity</li>
+              <li id="value3">Customer Satisfaction</li>
+              <li id="value4">Integrity and Transparency</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content-image">
+          <img src="./public/team.jpg" alt="team" class="team-image" />
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
