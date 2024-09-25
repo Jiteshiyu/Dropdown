@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     dropdowns.forEach((dropdown) => {
         dropdown.addEventListener("click", function(event) {
             event.stopPropagation();
-            
+
             dropdowns.forEach((d)=> {
                 if(d !== dropdown){
                     d.querySelector(".dropdown-list").style.display = "none";
