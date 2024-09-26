@@ -20,31 +20,26 @@ This project is a simple and responsive dropdown menu built using HTML, CSS, and
 - Clicking outside the dropdown closes any open lists.
 
 ## File Structure
-
+```
 ├── public/
-
 │   ├── icon.png        # Favicon for the website
-
 │   ├── team.jpg        # Sample team image for the content section
-
 ├── style.css           # Main stylesheet for layout and design
-
 ├── app.js              # JavaScript logic for dropdown functionality
-
 ├── index.html          # Main HTML page
-
 └── README.md           # This file
+```
 
 ## Setup Instructions
 
 ### Step 1: Clone the repository
-
-git clone https://github.com/Jiteshiyu/Dropdown.git
-
+  ``` bash
+  git clone https://github.com/Jiteshiyu/Dropdown.git
+  ```
 ### Step 2: Navigate to the project directory
 
 ### Step 3: Open index.html in your browser
-You can either double-click on index.html or use a live server if you're using a code editor like VS Code.
+  You can either double-click on `index.html` or use a live server if you're using a code editor like VS Code.
 
 ## Website view
 
@@ -57,5 +52,7 @@ Feel free to modify the HTML, CSS, or JavaScript files to suit your needs. Add n
 - Adding animations for smoother transitions when dropdowns open/close.
 - Further accessibility improvements (keyboard navigation for dropdowns).
 - Enhancing the content section with more detailed services and portfolios.
+
+---
 
 This should provide a clear guide for users and developers who work with your project!
