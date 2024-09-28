@@ -1,4 +1,4 @@
-# Dropdown Menu
+# Menumorph
 
 ## Overview
 This project is a simple and responsive dropdown menu built using HTML, CSS, and JavaScript. The menu includes multiple dropdown links for sections such as About, Services, and Portfolio, allowing for a clean navigation experience. Each dropdown reveals additional sub-links upon hovering or clicking, enhancing user interaction.
@@ -34,7 +34,7 @@ This project is a simple and responsive dropdown menu built using HTML, CSS, and
 
 ### Step 1: Clone the repository
   ``` bash
-  git clone https://github.com/Jiteshiyu/Dropdown.git
+  git clone https://github.com/Jiteshiyu/Menumorph.git
   ```
 ### Step 2: Navigate to the project directory
 
