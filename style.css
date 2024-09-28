@@ -1,134 +1,134 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Global styling */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
 }
 
+/* Header styling */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 0.5rem;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333; 
+  color: #fff; 
+  padding: 0.5rem; 
 }
 
 .logo a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.7rem;
-  font-weight: bold;
-  padding-left: 0.3rem;
+  text-decoration: none; 
+  color: #fff; 
+  font-size: 1.7rem; 
+  font-weight: bold; 
+  padding-left: 0.3rem; 
 }
 
+/* Navigation bar styling */
 .nav-list {
-  display: flex;
-  list-style: none;
+  display: flex; 
+  list-style: none; 
 }
 
 .nav-link {
-  position: relative;
+  position: relative; 
 }
 
 .nav-link a {
-  color: #fff;
-  font-size: 1.25rem;
-  text-decoration: none;
-  padding: 0.5rem 0.7rem;
-  display: block;
+  color: #fff; 
+  font-size: 1.25rem; 
+  text-decoration: none; 
+  padding: 0.5rem 0.7rem; 
+  display: block; 
 }
 
 .nav-link a:hover {
-  background-color: #555;
+  background-color: #555; 
 }
 
+/* Dropdown list styling */
 .dropdown-list {
-  display: none;
-  background-color: #333;
-  list-style: none;
-  position: absolute;
-  min-width: 8.5rem;
-  top: 100%;
+  display: none; 
+  background-color: #333; 
+  list-style: none; 
+  position: absolute; 
+  min-width: 8.5rem; 
+  top: 100%; 
 }
 
 .dropdown-link {
-  border-bottom: 1px solid #727272;
+  border-bottom: 1px solid #727272; 
 }
 
 .dropdown:hover .dropdown-list {
-  display: block;
+  display: block; 
 }
 
 .dropdown:hover .drop-btn {
-  background-color: #555;
+  background-color: #555; 
 }
 
+/* Main container styling */
 .main-container {
-  padding: 2rem;
-  background-color: #fff;
+  padding: 2rem; 
+  background-color: #fff; 
 }
 
+/* Content section layout */
 .content-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 2rem 0;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around; 
+  padding: 2rem 0; 
 }
 
 .content-text {
-  max-width: 700px;
+  max-width: 700px; 
 }
 
+/* Company Intro styling */
 .intro-title {
-  color: #007bff;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  color: #007bff; 
+  font-size: 2.5rem; 
+  margin-bottom: 1rem; 
 }
 
 .intro-desc {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem; 
+  margin-bottom: 1.5rem; 
 }
 
+/* Company Values styling */
 .values-title {
-  color: #333;
-  font-size: 1.7rem;
-  margin-bottom: 0.5rem;
+  color: #333; 
+  font-size: 1.7rem; 
+  margin-bottom: 0.5rem; 
 }
 
 .values-list {
-  list-style: disc;
-  font-size: 1.2rem;
-  padding-left: 2.5rem;
-  line-height: 1.8;
+  list-style: disc; 
+  font-size: 1.2rem; 
+  padding-left: 2.5rem; 
+  line-height: 1.8; 
 }
 
-#value1 {
-  color: #eb471a;
-}
+/* Specific colors for core values */
+#value1 { color: #eb471a; }
+#value2 { color: #6f0def; }
+#value3 { color: #089b94; }
+#value4 { color: #f607af; }
 
-#value2 {
-  color: #6f0def;
-}
-
-#value3 {
-  color: #089b94;
-}
-
-#value4 {
-  color: #f607af;
-}
-
+/* Team image styling */
 .team-image {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px; 
+  width: 100%; 
+  height: auto; 
+  margin-top: 0.5rem; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
