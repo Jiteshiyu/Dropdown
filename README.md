@@ -1,4 +1,5 @@
 # Menumorph
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Overview
 This project is a simple and responsive dropdown menu built using HTML, CSS, and JavaScript. The menu includes multiple dropdown links for sections such as About, Services, and Portfolio, allowing for a clean navigation experience. Each dropdown reveals additional sub-links upon hovering or clicking, enhancing user interaction.
