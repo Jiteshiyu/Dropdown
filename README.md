@@ -19,9 +19,9 @@ You can view a live demo of the project [here](https://menumorph.netlify.app/).
 
 ## Technologies Used
 
-- HTML5: Markup language to structure the page.
-- CSS3: Used for layout, style, and basic animations.
-- JavaScript: Handles the dropdown toggle functionality.
+- HTML5
+- CSS3
+- JavaScript
 
 ## Installation
 
