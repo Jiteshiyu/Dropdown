@@ -3,63 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menumorph</title>
+    <title>Navrush</title>
     <link rel="icon" type="image" href="./public/icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header container -->
-    <div class="header">
-      <header>
+    <div class="header-container">
+      <header class="header">
         <!-- Brandname -->
         <div class="logo">
-          <a href="/">Menumorph</a>
+          <a href="/">Navrush</a>
         </div>
         <!-- Navbar -->
         <nav class="navbar">
           <ul class="nav-list">
             <!-- Navlink -->
-            <li class="nav-link">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="dropdown nav-link">
-              <a href="#" class="drop-btn">About</a>
-              <!-- Dropdown -->
-              <ul class="dropdown-list">
-                <li class="dropdown-link"><a href="#">Our Team</a></li>
-                <li class="dropdown-link"><a href="#">Our Story</a></li>
-                <li class="dropdown-link"><a href="#">Careers</a></li>
-              </ul>
-            </li>
-            <li class="dropdown nav-link">
-              <a href="#" class="drop-btn">Services</a>
-              <ul class="dropdown-list">
-                <li class="dropdown-link"><a href="#">Web Design</a></li>
-                <li class="dropdown-link"><a href="#">SEO</a></li>
-                <li class="dropdown-link"><a href="#">Marketing</a></li>
-              </ul>
-            </li>
-            <li class="dropdown nav-link">
-              <a href="#" class="drop-btn">Portfolio</a>
-              <ul class="dropdown-list">
-                <li class="dropdown-link"><a href="#">Web Dev</a></li>
-                <li class="dropdown-link"><a href="#">UI Design</a></li>
-                <li class="dropdown-link"><a href="#">React.js</a></li>
-              </ul>
-            </li>
-            <li class="nav-link">
-              <a href="#" class="nav-link">Contact</a>
-            </li>
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">About</a></li>
+            <li class="nav-link"><a href="#">Services</a></li>
+            <li class="nav-link"><a href="#">Portfolio</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <!-- Hamburger -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </header>
     </div>
     <!-- Main container -->
     <div class="main-container">
       <div>
         <!-- Welcome gif -->
+        <h1 class="welcome">Hi there! 👋</h1>
         <img class="gif" src="./public/welcome.gif" alt="gif" />
-        <p class="welcome">Welcome to my page! 👋</p>
       </div>
     </div>
     <!-- JS File -->
