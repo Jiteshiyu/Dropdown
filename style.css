@@ -1,15 +1,18 @@
+/* Reset Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
 }
 
-.header {
+/* Header Styles */
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,6 +21,7 @@ body {
   border-bottom: 2px solid #c7c7c7;
 }
 
+/* Brandname Styles */
 .logo a {
   text-decoration: none;
   color: #007bf4;
@@ -25,11 +29,13 @@ body {
   font-weight: bold;
 }
 
+/* Navbar Styles */
 .nav-list {
   display: flex;
   list-style: none;
 }
 
+/* Navlink Styles */
 .nav-link {
   position: relative;
 }
@@ -48,6 +54,7 @@ body {
   background-color: #555;
 }
 
+/* Dropdown Styles */
 .dropdown-list {
   display: none;
   background-color: #fff;
@@ -75,7 +82,7 @@ body {
   background-color: #555;
 }
 
-/* Centering the content */
+/* Main Container Styles */
 .main-container {
   display: flex;
   justify-content: center;
@@ -84,6 +91,7 @@ body {
   margin-right: 2rem;
 }
 
+/* Intro Styles */
 .welcome {
   color: #f41212;
   margin: 0.75rem;
