@@ -8,7 +8,7 @@
 
 ## Demo
 
-You can view a live demo of the project [here](https://menumorph.netlify.app/).
+You can view a live demo of the project [Menumorph](https://menumorph.netlify.app/).
 
 ## Features
 
