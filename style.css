@@ -110,6 +110,10 @@ header {
 }
 
 @media (max-width: 952px) {
+  header, .main-container {
+    width: 100%;
+  }
+  
   .logo a {
     font-size: 2rem;
   }
@@ -118,9 +122,5 @@ header {
     font-size: 1.3rem;
     padding: 0.5rem 0.75rem;
     margin-right: 0.5rem;
-  }
-
-  .main-container {
-    width: 100%;
   }
 }
