@@ -108,3 +108,19 @@ header {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+@media (max-width: 952px) {
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .nav-link a {
+    font-size: 1.3rem;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.5rem;
+  }
+
+  .main-container {
+    width: 100%;
+  }
+}
